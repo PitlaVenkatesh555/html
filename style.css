@@ -340,4 +340,16 @@ div.gallery img {
 .city1{
   color:inherit;
   font-size: 20px;
+  
+}
+.location{
+  font-style: inherit;
+  color: #fff;
+  text-decoration: none;
+}
+.tirupati{
+  font-style: inherit;
+  color: #fff;
+  text-decoration: none;
+
 }
