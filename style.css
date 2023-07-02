@@ -379,5 +379,11 @@ div.gallery img {
     padding-left:40px;
     box-sizing:border-box;
     border-top:1px solid rgba(255,255,255,.1);
+    border-bottom:1px solid black;
+    transition:.4s;
+    
 }
+ul li:hover a{
+    padding-left:50px;
+    
 
