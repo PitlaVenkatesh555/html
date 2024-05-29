@@ -25,6 +25,17 @@
     padding-inline: 10px;
    
   }
+  .navbar{
+    height: 70px;
+    width: 80px;
+    position: absolute;
+    top: 10px;
+    right: 1000px;
+    padding: 20px;
+    padding-inline: 10px;
+   
+    
+  }
   .button{
     color: rgb(233, 231, 231);
     padding: 5px ;
@@ -39,7 +50,11 @@
     margin: 0 10px;
     transition: .5s;
     outline: none;
+    font-family: 'Courier New', Courier, monospace;
   
+  }
+  .fas fa-clipboard-list.button{
+    background-color: peru;
   }
   .button:hover{
   background: peru;
@@ -169,7 +184,7 @@
     text-decoration: none;
   }
   .dropbtn {
-    color: rgb(233, 231, 231);
+    color: peru;
     padding: 5px ;
     cursor: pointer;
     text-decoration: none;
@@ -182,12 +197,18 @@
     margin: 0 10px;
     transition: .5s;
     outline: none;
+    background-color: peru;
   
+  }
+  .button.dropdown{
+    font-family: 'Courier New', Courier, monospace;
   }
   
   .dropdown {
     position: relative;
     display: inline-block;
+    background-color: peru;
+    color: peru;
   }
   
   .dropdown-content {
